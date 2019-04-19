@@ -26,7 +26,7 @@ Para Laravel 5.* tienen que agregar en el archivo `composer.json`.
 ```json
 {
     "require": {
-        "villca/tcpdf-laravel": "1.1.*"
+        "villca/tcpdf-laravel": "2.0.*"
     }
 }
 ```
