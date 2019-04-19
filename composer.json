@@ -1,0 +1,37 @@
+{
+  "name": "villca/tcpdf-laravel",
+  "description": "TCPDF para Laravel",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+	"pdf",
+    "tcpdf",
+    "laravel"
+  ],
+  "authors" : [
+    {
+      "name": "Jesus Villca",
+      "email": "24villca@gmail.com",
+      "homepage": "https://24villca.blogspot.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.8.*",
+    "tecnickcom/tcpdf": "6.2.*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Villca\\TCPDF\\": "src/"
+	}
+  },
+  "extra": {
+      "laravel": {
+        "providers": [
+          "Villca\\TCPDF\\ServiceProvider"
+        ],
+        "aliases": {
+          "PDF": "Villca\\TCPDF\\Facades\\TCPDF"
+        }
+      }
+  }
+}
