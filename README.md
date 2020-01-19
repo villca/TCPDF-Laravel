@@ -1,5 +1,4 @@
 # Laravel 6.0 TCPDF
-<p align="center"><img src="https://avatars3.githubusercontent.com/u/34888056">TCPDF Laravel</p>
 <p align="center">
 <a href="https://travis-ci.org/villca/numeros-en-letras"><img src="https://travis-ci.org/villca/tcpdf-laravel.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/villca/numeros-en-letras"><img src="https://poser.pugx.org/villca/tcpdf-laravel/v/stable.svg" alt="Latest Stable Version"></a>
@@ -22,6 +21,18 @@ Laravel TCPDF es un servicio que puede ser instalado via [composer](http://getco
 ```json
   composer require villca/tcpdf-laravel
 ```
+# Laravel 6.*
+Para Laravel 6.* tienen que agregar en el archivo `composer.json`.
+
+```json
+{
+    "require": {
+        "villca/tcpdf-laravel": "6.0.*"
+    }
+}
+```
+
+# Laravel 5.*
 Para Laravel 5.* tienen que agregar en el archivo `composer.json`.
 
 ```json
