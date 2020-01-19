@@ -27,7 +27,7 @@ Para Laravel 6.* tienen que agregar en el archivo `composer.json`.
 ```json
 {
     "require": {
-        "villca/tcpdf-laravel": "6.0.*"
+        "villca/tcpdf-laravel": "6.1.*"
     }
 }
 ```
